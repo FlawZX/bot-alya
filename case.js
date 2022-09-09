@@ -627,7 +627,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                ALYA.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/f8d35118f27c5b371da2b.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n◦ 15k Per Group via E-Walet 1 Month\n◦ 20k via pulsa 1 Month\n\n Premium Price Bot\n◦ 10k per User 1 bulan\n\nPayment can be via Paypal/link aja/pulsa\n\nFor more details, you can chat with the owner\nhttps://wa.me/6281252848955 (Owner)\n\nDonate For Me : \n\n◦ Paypal : https://www.paypal.me/Rifando35\n◦ Saweria : https://saweria.co/Nando35` }, { quoted: m })
+                ALYA.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/e05651133e0be50f038e3.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n◦ 15k Per Group via E-Walet 1 Month\n◦ 20k via pulsa 1 Month\n\n Premium Price Bot\n◦ 10k per User 1 bulan\n\nPayment can be via Paypal/link aja/pulsa\n\nFor more details, you can chat with the owner\nhttps://wa.me/6289510598381 (Owner)\n\nDonate For Me : \n\n◦ Paypal : https://www.paypal.me/YogzKyz\n◦ Saweria : https://saweria.co/yogzkyz` }, { quoted: m })
             }
             break
             case 'rules':{
@@ -647,20 +647,20 @@ Jika sudah dipahami rules-nya, silakan ketik *${prefix}menu* untuk memulai!`)
 break
             case 'sc':  case 'sourcecode': {
 	        anu = `
-◦ Script : https://github.com/Nando35/ALYAM
-◦ Script ori : https://github.com/DikaArdnt/ALYA-Morou
+◦ Script : https://github.com/ZennSky/ZennSky
+◦ Script ori : https://github.com/DikaArdnt
 
 Jangan lupa kasih bintang.
-◦ Donate : 628125284895 (Dana / gopay)
-◦ Saweria : https://saweria.co/Nando35
-◦ Paypal : https://www.paypal.me/Rifando35
+◦ Donate : 6289510598381 (Dana / gopay)
+◦ Saweria : https://saweria.co/yogzkyz
+◦ Via IG : https://Instagram.com/karfuanyogich
 
 Dont Forget Donate
 `
 	                let btn = [{
                                 urlButton: {
                                     displayText: 'Instagram',
-                                    url: 'https://instagram.com/naando.jpeg'
+                                    url: 'https://instagram.com/karfuanyogich'
                                 }
                             }]
                         ALYA.send5ButImg(m.chat, anu, botname, global.sc, btn)
@@ -685,7 +685,7 @@ Alya
 	                let btn = [{
                                 urlButton: {
                                     displayText: 'Instagram',
-                                    url: 'https://instagram.com/naando.jpeg'
+                                    url: 'https://instagram.com/karfuanyogich'
                                 }
                             }]
                         ALYA.send5ButImg(m.chat, anu, botname, global.tq, btn)
@@ -857,7 +857,7 @@ Alya
             let member = participants.map(u => u.id)
             let orang = member[Math.floor(Math.random() * member.length)]
             let jodoh = member[Math.floor(Math.random() * member.length)]
-            let jawab = `Ciee yang Jadian💖 Jangan lupa pajak jadiannya🐤
+            let jawab = `Ciee yang Jadian 💖 Jangan lupa pajak jadiannya🐤
 
 @${orang.split('@')[0]} ❤️ @${jodoh.split('@')[0]}`
             let menst = [orang, jodoh]
@@ -987,7 +987,7 @@ Alya
                 if (!isAdmins) throw mess.admin
 let teks = `══✪〘 *👥 Tag All* 〙✪══
  
- ➲ *Pesan : ${q ? q : 'kosong'}*\n\n`
+ ➲ *Pesan : ${q ? q : 'kontol'}*\n\n`
                 for (let mem of participants) {
                 teks += `◦ @${mem.id.split('@')[0]}\n`
                 }
@@ -1291,7 +1291,7 @@ break
                     let btn = [{
                                 urlButton: {
                                     displayText: 'Source Code',
-                                    url: 'https://github.com/DikaArdnt/ALYA-Morou'
+                                    url: 'https://github.com/ZennSky/ZennSky'
                                 }
                             }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
@@ -1310,7 +1310,7 @@ break
 		    let btn = [{
                                 urlButton: {
                                     displayText: 'Source Code',
-                                    url: 'https://github.com/DikaArdnt/ALYA-Morou'
+                                    url: 'https://github.com/ZennSky/ZennSky'
                                 }
                             }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
@@ -1581,7 +1581,7 @@ break
                 let buttonMessage = {
                     image: { url: images },
                     caption: `*-------「 GIMAGE SEARCH 」-------*
-🤠 *Query* : ${text}
+🗿 *Query* : ${text}
 🔗 *Media Url* : ${images}`,
                     footer: ALYA.user.name,
                     buttons: buttons,
