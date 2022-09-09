@@ -2,29 +2,29 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 // Other
-global.owner = ['6285815975368']
-global.premium = ['6285815975368']
-global.ownername = 'Liya'
-global.botname = 'AliyaBot'
-global.packname = '© by AliyaBot'
-global.gc = 'https://bit.ly/3KMlmv2'
-global.linkyt = 'https://youtube.com/channel/UC9Si3U0o9dGS9MDfJR5iF6Q'
-global.linkgc = 'https://chat.whatsapp.com/DwP6uHYBWBc6TBSsNJrzwN'
-global.limitawal = '100'
-global.author = '@alya.xzy'
-global.sessionName = 'polo'
+global.owner = ['6289510598381']
+global.premium = ['6289510598381']
+global.ownername = 'YogzFX'
+global.botname = '𝒁𝒆𝒏𝒏𝑺𝒌𝒚-𝑩𝒐𝒕𝒛'
+global.packname = 'Created By © 𝒁𝒆𝒏𝒏𝑺𝒌𝒚-𝑩𝒐𝒕𝒛'
+global.gc = 'https://chat.whatsapp.com/KNkpoT4oX5yFA18GlPttgl'
+global.linkyt = 'https://youtube.com/channel/UCAssIRzQX_Ohi1I8eWzcRxQ'
+global.linkgc = 'https://chat.whatsapp.com/KNkpoT4oX5yFA18GlPttgl'
+global.limitawal = '500'
+global.author = '@YogzFX'
+global.sessionName = 'zenn'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = 'terserah'
 global.mess = {
-    success: 'Berhasil',
+    success: 'Done Ngab!',
     admin: 'Fitur Khusus Admin Group!',
     botAdmin: 'Bot Harus Menjadi Admin Terlebih Dahulu!',
     owner: 'Fitur Khusus Owner Bot',
     group: 'Fitur Digunakan Hanya Untuk Group!',
     private: 'Fitur Digunakan Hanya Untuk Private Chat!',
     bot: 'Fitur Khusus Pengguna Nomor Bot',
-    wait: 'Tunggu sebentar, sedang di proses',
-    endLimit: 'Limit Harian Anda Telah Habis, Limit Akan Direset Setiap Jam 12',
+    wait: 'Proses Ngab Sabar!',
+    endLimit: 'Limit Harian Lu Udah Abis, Limit Akan Direset Setiap Jam 12',
 }
 global.limitawal = {
     premium: "Infinity",
